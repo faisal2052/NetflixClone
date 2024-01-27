@@ -242,12 +242,19 @@ input:hover{
     font-size: 60px;
     font-family: sans-serif;
     padding-top: 80px;
+    margin-bottom: 30px;
     padding-bottom: 20px;
 }
 .back3{
     background-color: black;
     width: 100%;
-    height: 1000px;
+    height: 1050px;
+}
+.back4{
+    background-color: black;
+    width: 100%;
+    margin-top: -30px;
+    height: 200px;
 }
 .foot{
     /* border: 1px solid red; */
@@ -255,7 +262,7 @@ input:hover{
     width: 80%;
     margin-left: 10%;
     background-color: rgb(69, 68, 68);
-    margin-top: -25px;
+    margin-top: -60px;
 }
 .foot:hover{
     background-color: rgb(76, 74, 74);
@@ -271,30 +278,36 @@ input:hover{
     padding: 20px 10px;
 }
 
-.dadd1{
-    margin-left: 73%;
-    
+.add{
+    position: absolute;
+    left: 83%;
+    font-size: 40px;
+    font-weight: 100;
 }
 .parade{
-    
+   
+   
     background-color: rgb(69, 68, 68);
 }
-.dadd2{
-    margin-left: 58%;
+.para{
+    height: 90px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -30px;
+    margin-bottom: 100px;
+    padding: 20px 0px;
+   
+    background-color: rgb(69, 68, 68);
+    display: none;
 }
-.dadd3{
-    margin-left: 69%;
+
+.x{
+    display: none;
+    margin-top: -50px;
+    margin-left: 92%;
 }
-.dadd4{
-    margin-left: 72%;
-}
-.dadd5{
-    margin-left: 59%;
-}
-.dadd6{
-    margin-left: 64%;
-}
-.back4{
+
+.back5{
     background-color: black;
     width: 100%;
     height: 500px;
@@ -330,10 +343,7 @@ input:hover{
         margin: 25px 0px;
         margin-left: 15%;
     }
- /* .secondsum:hover{
-        display: none;
-
-    }  */
+ 
 
 
 
